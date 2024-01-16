@@ -1,1 +1,31 @@
 artifacts/*
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files and directories
+models/
+*.h5
+*.pkl
+
+# Ignore data files (large datasets, local copies)
+data/
+
+# Ignore logs and output files
+logs/
+output/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
